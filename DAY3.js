@@ -3,13 +3,11 @@
                                    //DAY-3 Interview questions
 //Q.1 Create a button , on click of which new Heading tag h1 should be added with text 
 // as "MERN stack" on the screen above button.
-
-
-
 function ak(){
   let ele=document.getElementsByTagName("h1");
   ele[0].innerHTML="MERN stack";
 }
+
 //Q.2 Write code to implement timer clock using JS -- display 
 // HH:MM:SS -- the time should keep updating every second.
 //Answers...
